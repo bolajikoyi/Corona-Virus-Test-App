@@ -1,6 +1,6 @@
 # Corona-Virus-Test-App
 
-This app fictitously tests for Corona virus when an X-ray image is uploaded to the server. It randomly generates a posotive or nagative result. The app is designed just for illustration, and does not actually performs corona test. This app is designed with MEAN stack.
+This app simulates Corona virus test when an X-ray image is uploaded to the server. It randomly generates a positive or nagative result. It is designed just for illustration, and does not actually perform corona virus test. Designed is done with MEAN stack.
 
 ## Running the project on localhost
 
