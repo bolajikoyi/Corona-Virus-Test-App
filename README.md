@@ -1,3 +1,7 @@
+# Corona-Virus-Test-App
+
+This app fictitously tests for Corona virus when an X-ray image is uploaded to the server. It randomly generates a posotive or nagative result. The app is designed just for illustration, and does not actually performs corona test. This app is designed with MEAN stack.
+
 ## Running the project on localhost
 
 After clonning the repository, and having the complete project files saved in a directory on you computer, open the project folder with your desired editor.
@@ -28,4 +32,3 @@ To run the backend part of the project:
 - Angular
 - Node.js and Express
 - MongoDB and Mongoose
-# Corona-Virus-Test-App
