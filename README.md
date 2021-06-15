@@ -13,7 +13,7 @@ To run the frontend part of the project:
 - To check the version of node.js you have installed, type: `node -v`
 - Install angular globally: `npm install -g @angular/cli`
 - To install all the frontend dependencies: `npm install`
-- To open the frontend on localhost: `ng serve --port 4200`
+- To open the frontend on localhost: `npm start`
 
 Setting up the database
 
@@ -25,7 +25,7 @@ To run the backend part of the project:
 
 - Navigate to the directory of the backend files: `cd backend-chest-X`
 - To install all the backend dependencies: `npm install`
-- To run the backend server: `nodemon server.js`
+- To run the backend server: `npm start`
 
 ## Tech Stack
 
