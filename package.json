@@ -26,9 +26,8 @@
     "node.js",
     "express",
     "mongodb",
-    "mongoose",
-    "Techlabs Berlin 2021"
+    "mongoose"
   ],
-  "author": "Omobolaji and Martin",
+  "author": "Omobolaji",
   "license": "ISC"
 }
