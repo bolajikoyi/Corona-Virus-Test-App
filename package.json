@@ -1,7 +1,7 @@
 {
   "name": "backend-chest-x",
   "version": "1.0.0",
-  "description": "Backend of ChestX, a Covid-19 checker from X-ray images",
+  "description": "Backend of Coronatest app, a Covid-19 checker from X-ray images",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -17,7 +17,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm build"
+    "heroku-postbuild": "cd client && npm install && npm run build --only=dev && npm install && npm run build"
   },
   "engines": {
     "node": "14.17.0"
