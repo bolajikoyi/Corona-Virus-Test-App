@@ -1,6 +1,6 @@
 # Corona-Virus-Test-App
 
-This app simulates Corona virus test when an X-ray image is uploaded to the server. It randomly generates a positive or nagative result. It is designed just for illustration, and does not actually perform corona virus test. Designed is done with MEAN stack.
+This app simulates Corona virus test when an X-ray image is uploaded to the server. It randomly generates a positive or nagative result. It is designed just for illustration, and does not actually perform corona virus test. The app design is done with MEAN stack.
 
 ## Running the project on localhost
 
@@ -8,7 +8,7 @@ After clonning the repository, and having the complete project files saved in a 
 
 To run the frontend part of the project:
 
-- Navigate to the directory of the frontend files: `cd frontend-chest-X`
+- Navigate to the directory of the frontend files: `cd frontend-coronaTest`
 - Install node.js on your computer if you do not already have it installed [node.js](https://nodejs.org/en/)
 - To check the version of node.js you have installed, type: `node -v`
 - Install angular globally: `npm install -g @angular/cli`
@@ -23,7 +23,7 @@ Setting up the database
 
 To run the backend part of the project:
 
-- Navigate to the directory of the backend files: `cd backend-chest-X`
+- Navigate to the directory of the backend files: `cd backend-coronaTest`
 - To install all the backend dependencies: `npm install`
 - To run the backend server: `npm start`
 
