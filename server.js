@@ -3,6 +3,8 @@ const app = express();
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const methodOverride = require("method-override");
+
+// needed so that we can use a .env file
 require("dotenv").config();
 
 global.__basedir = __dirname;
@@ -34,6 +36,8 @@ const path = require("path");
 app.use(express.static(path.join(__dirname, "client", "dist")));
 app.use("/public", express.static(path.join("public")));
 
+// the value of MONGODB_URI is provided in the .env file.
+// Alternatively, "mongodb://localhost:27017/coronaTest" together with the quotation marks can be used to replace process.env.MONGODB_URI.
 mongoose
   .connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
@@ -46,18 +50,6 @@ mongoose
     console.log("MongoDB Connection Error!!");
     console.log(e);
   });
-// mongoose
-//   .connect("mongodb://localhost:27017/coronaTest", {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//   })
-//   .then(() => {
-//     console.log("MongoDB Connection Open!!!");
-//   })
-//   .catch((e) => {
-//     console.log("MongoDB Connection Error!!");
-//     console.log(e);
-//   });
 
 app.get("/", (req, res) => {
   res.send("CoronaTest app");
