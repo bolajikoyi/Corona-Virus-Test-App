@@ -23,7 +23,7 @@ Setting up the database
 
 To run the backend part of the project:
 
-- Navigate to the directory of the backend files: `cd backend-coronaTest`
+- Navigate to the root directory of the project
 - To install all the backend dependencies: `npm install`
 - To run the backend server: `npm start`
 

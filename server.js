@@ -76,7 +76,7 @@ app.get("/", (req, res) => {
 //   });
 // });
 
-// hadling all requests that is made to the frontend
+// handling all requests that is made to the frontend
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "client", "dist", "index.html"));
 });
