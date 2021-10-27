@@ -1,8 +1,6 @@
 const express = require("express");
 const app = express();
-const bodyParser = require("body-parser");
 const cors = require("cors");
-const methodOverride = require("method-override");
 
 // needed so that we can use a .env file
 require("dotenv").config();

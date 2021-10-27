@@ -1,5 +1,5 @@
 {
-  "name": "Coronatest",
+  "name": "coronatest",
   "version": "1.0.0",
   "description": "Backend of Coronatest app, a Covid-19 checker from X-ray images",
   "main": "server.js",
